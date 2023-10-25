@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52A0A2B52AE9354700A24878 /* MyComponentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2B42AE9354700A24878 /* MyComponentApp.swift */; };
-		52A0A2B72AE9354700A24878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2B62AE9354700A24878 /* ContentView.swift */; };
-		52A0A2B92AE9354800A24878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A2B82AE9354800A24878 /* Assets.xcassets */; };
-		52A0A2BC2AE9354800A24878 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A2BB2AE9354800A24878 /* Preview Assets.xcassets */; };
+		52A0A2932AE925FB00A24878 /* CarouselApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2922AE925FB00A24878 /* CarouselApp.swift */; };
+		52A0A2952AE925FB00A24878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2942AE925FB00A24878 /* ContentView.swift */; };
+		52A0A2972AE925FC00A24878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A2962AE925FC00A24878 /* Assets.xcassets */; };
+		52A0A29A2AE925FC00A24878 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A2992AE925FC00A24878 /* Preview Assets.xcassets */; };
+		52A0A2A12AE9261300A24878 /* CarouselStyleOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2A02AE9261300A24878 /* CarouselStyleOne.swift */; };
+		52A0A2A52AE926D000A24878 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2A42AE926D000A24878 /* Card.swift */; };
+		52A0A2A72AE92DA700A24878 /* CarouselStyleTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2A62AE92DA700A24878 /* CarouselStyleTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52A0A2B12AE9354700A24878 /* MyComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A0A2B42AE9354700A24878 /* MyComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComponentApp.swift; sourceTree = "<group>"; };
-		52A0A2B62AE9354700A24878 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		52A0A2B82AE9354800A24878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52A0A2BB2AE9354800A24878 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52A0A28F2AE925FB00A24878 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A0A2922AE925FB00A24878 /* CarouselApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselApp.swift; sourceTree = "<group>"; };
+		52A0A2942AE925FB00A24878 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52A0A2962AE925FC00A24878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A0A2992AE925FC00A24878 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52A0A2A02AE9261300A24878 /* CarouselStyleOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselStyleOne.swift; sourceTree = "<group>"; };
+		52A0A2A42AE926D000A24878 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		52A0A2A62AE92DA700A24878 /* CarouselStyleTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselStyleTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52A0A2AE2AE9354700A24878 /* Frameworks */ = {
+		52A0A28C2AE925FB00A24878 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +38,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52A0A2A82AE9354700A24878 = {
+		52A0A2862AE925FB00A24878 = {
 			isa = PBXGroup;
 			children = (
-				52A0A2B32AE9354700A24878 /* MyComponent */,
-				52A0A2B22AE9354700A24878 /* Products */,
+				52A0A2912AE925FB00A24878 /* Carousel */,
+				52A0A2902AE925FB00A24878 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		52A0A2B22AE9354700A24878 /* Products */ = {
+		52A0A2902AE925FB00A24878 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52A0A2B12AE9354700A24878 /* MyComponent.app */,
+				52A0A28F2AE925FB00A24878 /* Carousel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52A0A2B32AE9354700A24878 /* MyComponent */ = {
+		52A0A2912AE925FB00A24878 /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
-				52A0A2B42AE9354700A24878 /* MyComponentApp.swift */,
-				52A0A2B62AE9354700A24878 /* ContentView.swift */,
-				52A0A2B82AE9354800A24878 /* Assets.xcassets */,
-				52A0A2BA2AE9354800A24878 /* Preview Content */,
+				52A0A2922AE925FB00A24878 /* CarouselApp.swift */,
+				52A0A2942AE925FB00A24878 /* ContentView.swift */,
+				52A0A2A02AE9261300A24878 /* CarouselStyleOne.swift */,
+				52A0A2A62AE92DA700A24878 /* CarouselStyleTwo.swift */,
+				52A0A2A42AE926D000A24878 /* Card.swift */,
+				52A0A2962AE925FC00A24878 /* Assets.xcassets */,
+				52A0A2982AE925FC00A24878 /* Preview Content */,
 			);
-			path = MyComponent;
+			path = Carousel;
 			sourceTree = "<group>";
 		};
-		52A0A2BA2AE9354800A24878 /* Preview Content */ = {
+		52A0A2982AE925FC00A24878 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				52A0A2BB2AE9354800A24878 /* Preview Assets.xcassets */,
+				52A0A2992AE925FC00A24878 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +79,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52A0A2B02AE9354700A24878 /* MyComponent */ = {
+		52A0A28E2AE925FB00A24878 /* Carousel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52A0A2BF2AE9354800A24878 /* Build configuration list for PBXNativeTarget "MyComponent" */;
+			buildConfigurationList = 52A0A29D2AE925FC00A24878 /* Build configuration list for PBXNativeTarget "Carousel" */;
 			buildPhases = (
-				52A0A2AD2AE9354700A24878 /* Sources */,
-				52A0A2AE2AE9354700A24878 /* Frameworks */,
-				52A0A2AF2AE9354700A24878 /* Resources */,
+				52A0A28B2AE925FB00A24878 /* Sources */,
+				52A0A28C2AE925FB00A24878 /* Frameworks */,
+				52A0A28D2AE925FB00A24878 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyComponent;
-			productName = MyComponent;
-			productReference = 52A0A2B12AE9354700A24878 /* MyComponent.app */;
+			name = Carousel;
+			productName = MovieCarousel;
+			productReference = 52A0A28F2AE925FB00A24878 /* Carousel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		52A0A2A92AE9354700A24878 /* Project object */ = {
+		52A0A2872AE925FB00A24878 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					52A0A2B02AE9354700A24878 = {
+					52A0A28E2AE925FB00A24878 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 52A0A2AC2AE9354700A24878 /* Build configuration list for PBXProject "MyComponent" */;
+			buildConfigurationList = 52A0A28A2AE925FB00A24878 /* Build configuration list for PBXProject "Carousel" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +119,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 52A0A2A82AE9354700A24878;
-			productRefGroup = 52A0A2B22AE9354700A24878 /* Products */;
+			mainGroup = 52A0A2862AE925FB00A24878;
+			productRefGroup = 52A0A2902AE925FB00A24878 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52A0A2B02AE9354700A24878 /* MyComponent */,
+				52A0A28E2AE925FB00A24878 /* Carousel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		52A0A2AF2AE9354700A24878 /* Resources */ = {
+		52A0A28D2AE925FB00A24878 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A0A2BC2AE9354800A24878 /* Preview Assets.xcassets in Resources */,
-				52A0A2B92AE9354800A24878 /* Assets.xcassets in Resources */,
+				52A0A29A2AE925FC00A24878 /* Preview Assets.xcassets in Resources */,
+				52A0A2972AE925FC00A24878 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52A0A2AD2AE9354700A24878 /* Sources */ = {
+		52A0A28B2AE925FB00A24878 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A0A2B72AE9354700A24878 /* ContentView.swift in Sources */,
-				52A0A2B52AE9354700A24878 /* MyComponentApp.swift in Sources */,
+				52A0A2952AE925FB00A24878 /* ContentView.swift in Sources */,
+				52A0A2A72AE92DA700A24878 /* CarouselStyleTwo.swift in Sources */,
+				52A0A2A12AE9261300A24878 /* CarouselStyleOne.swift in Sources */,
+				52A0A2932AE925FB00A24878 /* CarouselApp.swift in Sources */,
+				52A0A2A52AE926D000A24878 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		52A0A2BD2AE9354800A24878 /* Debug */ = {
+		52A0A29B2AE925FC00A24878 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		52A0A2BE2AE9354800A24878 /* Release */ = {
+		52A0A29C2AE925FC00A24878 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,14 +276,14 @@
 			};
 			name = Release;
 		};
-		52A0A2C02AE9354800A24878 /* Debug */ = {
+		52A0A29E2AE925FC00A24878 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyComponent/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Carousel/Preview Content\"";
 				DEVELOPMENT_TEAM = MZGXY73NDC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aspirinnil.MyComponent;
+				PRODUCT_BUNDLE_IDENTIFIER = aspirinnil.Carousel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,14 +305,14 @@
 			};
 			name = Debug;
 		};
-		52A0A2C12AE9354800A24878 /* Release */ = {
+		52A0A29F2AE925FC00A24878 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyComponent/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Carousel/Preview Content\"";
 				DEVELOPMENT_TEAM = MZGXY73NDC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aspirinnil.MyComponent;
+				PRODUCT_BUNDLE_IDENTIFIER = aspirinnil.Carousel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52A0A2AC2AE9354700A24878 /* Build configuration list for PBXProject "MyComponent" */ = {
+		52A0A28A2AE925FB00A24878 /* Build configuration list for PBXProject "Carousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52A0A2BD2AE9354800A24878 /* Debug */,
-				52A0A2BE2AE9354800A24878 /* Release */,
+				52A0A29B2AE925FC00A24878 /* Debug */,
+				52A0A29C2AE925FC00A24878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52A0A2BF2AE9354800A24878 /* Build configuration list for PBXNativeTarget "MyComponent" */ = {
+		52A0A29D2AE925FC00A24878 /* Build configuration list for PBXNativeTarget "Carousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52A0A2C02AE9354800A24878 /* Debug */,
-				52A0A2C12AE9354800A24878 /* Release */,
+				52A0A29E2AE925FC00A24878 /* Debug */,
+				52A0A29F2AE925FC00A24878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 52A0A2A92AE9354700A24878 /* Project object */;
+	rootObject = 52A0A2872AE925FB00A24878 /* Project object */;
 }
