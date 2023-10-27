@@ -36,6 +36,13 @@ struct ContentView: View {
                         systemImage: "pencil"
                     )
                 }
+                
+                CarouselStyleThree(cards: cardList)
+                    .tabItem {
+                        Label(
+                        "Style Three",
+                        systemImage: "pencil")
+                    }
             }
         }
         Spacer()

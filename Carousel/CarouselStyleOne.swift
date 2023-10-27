@@ -14,6 +14,7 @@ struct CarouselStyleOne: View {
     var body: some View {
         VStack {
             TabView {
+                
                ForEach(cards, id: \.id) { card in
                    ZStack {
                        RoundedRectangle(cornerRadius: 25)
@@ -30,10 +31,10 @@ struct CarouselStyleOne: View {
                    }
                }
            }
-           .tabViewStyle(.page)
-           .indexViewStyle(.page(backgroundDisplayMode: .interactive))
-           .cornerRadius(30)
-           .padding(10)
+            .tabViewStyle(.page)
+            .indexViewStyle(.page(backgroundDisplayMode: .interactive))
+            .cornerRadius(30)
+            .padding(10)
         }
     }
     

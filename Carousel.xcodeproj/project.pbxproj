@@ -14,6 +14,7 @@
 		52A0A2A12AE9261300A24878 /* CarouselStyleOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2A02AE9261300A24878 /* CarouselStyleOne.swift */; };
 		52A0A2A52AE926D000A24878 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2A42AE926D000A24878 /* Card.swift */; };
 		52A0A2A72AE92DA700A24878 /* CarouselStyleTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0A2A62AE92DA700A24878 /* CarouselStyleTwo.swift */; };
+		52A235852AEA8A80009B5E00 /* CarouselStyleThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A235842AEA8A80009B5E00 /* CarouselStyleThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		52A0A2A02AE9261300A24878 /* CarouselStyleOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselStyleOne.swift; sourceTree = "<group>"; };
 		52A0A2A42AE926D000A24878 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		52A0A2A62AE92DA700A24878 /* CarouselStyleTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselStyleTwo.swift; sourceTree = "<group>"; };
+		52A235842AEA8A80009B5E00 /* CarouselStyleThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselStyleThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				52A0A2942AE925FB00A24878 /* ContentView.swift */,
 				52A0A2A02AE9261300A24878 /* CarouselStyleOne.swift */,
 				52A0A2A62AE92DA700A24878 /* CarouselStyleTwo.swift */,
+				52A235842AEA8A80009B5E00 /* CarouselStyleThree.swift */,
 				52A0A2A42AE926D000A24878 /* Card.swift */,
 				52A0A2962AE925FC00A24878 /* Assets.xcassets */,
 				52A0A2982AE925FC00A24878 /* Preview Content */,
@@ -150,6 +153,7 @@
 				52A0A2A72AE92DA700A24878 /* CarouselStyleTwo.swift in Sources */,
 				52A0A2A12AE9261300A24878 /* CarouselStyleOne.swift in Sources */,
 				52A0A2932AE925FB00A24878 /* CarouselApp.swift in Sources */,
+				52A235852AEA8A80009B5E00 /* CarouselStyleThree.swift in Sources */,
 				52A0A2A52AE926D000A24878 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
